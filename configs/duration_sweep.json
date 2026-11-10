@@ -1,0 +1,9 @@
+{
+  "dataset": "../Datasets/Data_STM-DT",
+  "placement": "right-pocket",
+  "sample_interval_us": 20000,
+  "train_subjects": [1, 2, 3, 4, 5, 6, 7],
+  "validation_subjects": [8, 9],
+  "durations_seconds": [2, 5, 10, 20],
+  "seed": 42
+}

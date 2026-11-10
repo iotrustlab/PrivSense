@@ -67,3 +67,11 @@ The model receives only prompts, tool schemas, training summaries, candidate spe
 Data, credentials, and run outputs are ignored by Git. Installed package versions are recorded in `requirements-lock.txt` for this initial environment. Repeated seeds/splits, temporal-shuffle controls, budget-matched non-agentic search, fixed-plan LLM ablation, and detector-training provenance remain necessary before a research claim about agent advantage. This does not reproduce every experimental setting in the prior paper.
 
 OpenRouter references: https://openrouter.ai/docs/api/api-reference/chat/send-chat-completion-request and https://openrouter.ai/api/v1/models
+
+## Development-only binary audit and duration sweep
+
+```bash
+python duration_sweep.py --out runs/duration-sweep-001
+```
+
+This separate experiment uses `configs/duration_sweep.json` with only training subjects 1–7 and validation subjects 8–9. It never loads users 10–11 or calls an LLM. It audits binary patterns and compares fixed duty/logistic and temporal/random-forest baselines at 2, 5, 10, and 20 seconds. Alongside all eligible windows, a common-time-support analysis retains the same full 20-second spans across durations. Short recordings can be excluded; check class coverage. Outputs include source hashes, recording constancy, per-class window diversity, confusion matrices, recall, subject metrics, and a Markdown report. This diagnoses whether richer observations can help before extending the agent. It does not verify original detector firmware or reproduce the paper's full protocol.
