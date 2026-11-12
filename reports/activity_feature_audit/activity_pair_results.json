@@ -1,0 +1,2217 @@
+{
+  "left-ankle": {
+    "Downstairs vs Jogging": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5168650793650793,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5168650793650793,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Laying": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.9333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.4970238095238095,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 26
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.4880952380952381,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 26,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5696145124716553,
+        "validation_balanced_accuracy": 0.5384615384615385,
+        "validation_accuracy": 0.5384615384615384,
+        "validation_n": 26
+      }
+    },
+    "Downstairs vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5168650793650793,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5168650793650793,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Jogging vs Laying": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.75
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5089285714285714,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5089285714285714,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Jogging vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5714285714285714,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.75
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Laying vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5714285714285714,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4
+      }
+    },
+    "Sitting vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.75
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.25,
+        "validation_accuracy": 0.25,
+        "validation_n": 4
+      }
+    },
+    "Sitting vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Sitting vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.42857142857142855,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Standing vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.9333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.9333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.75
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Standing vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.75
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.25,
+        "validation_accuracy": 0.25,
+        "validation_n": 4
+      }
+    },
+    "Upstairs vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5089285714285714,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5089285714285714,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    }
+  },
+  "left-wrist": {
+    "Downstairs vs Jogging": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Laying": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9880952380952381,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9880952380952381,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9166666666666667,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 26
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 26,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5696145124716553,
+        "validation_balanced_accuracy": 0.4230769230769231,
+        "validation_accuracy": 0.4230769230769231,
+        "validation_n": 26
+      }
+    },
+    "Downstairs vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Jogging vs Laying": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5714285714285714,
+        "validation_balanced_accuracy": 0.0,
+        "validation_accuracy": 0.0,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.25,
+        "validation_accuracy": 0.25,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.42857142857142855,
+        "validation_balanced_accuracy": 0.25,
+        "validation_accuracy": 0.25,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Jogging vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5714285714285714,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.25,
+        "validation_accuracy": 0.25,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.7142857142857143,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.7142857142857143,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.25,
+        "validation_accuracy": 0.25,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Laying vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5714285714285714,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Sitting vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.7857142857142857,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.7142857142857143,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.35714285714285715,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Sitting vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Sitting vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.35714285714285715,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Standing vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Standing vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.35714285714285715,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Upstairs vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    }
+  },
+  "right-ankle": {
+    "Downstairs vs Jogging": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Laying": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5178571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 26
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 26,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5696145124716553,
+        "validation_balanced_accuracy": 0.4230769230769231,
+        "validation_accuracy": 0.4230769230769231,
+        "validation_n": 26
+      }
+    },
+    "Downstairs vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Jogging vs Laying": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.25,
+        "validation_accuracy": 0.25,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.7142857142857143,
+        "validation_balanced_accuracy": 0.25,
+        "validation_accuracy": 0.25,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5178571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5178571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Jogging vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.25,
+        "validation_accuracy": 0.25,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.7142857142857143,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.7142857142857143,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Laying vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5714285714285714,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Sitting vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Sitting vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Sitting vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Standing vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Standing vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.2857142857142857,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Upstairs vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5178571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5178571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    }
+  },
+  "right-pocket": {
+    "Downstairs vs Jogging": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Laying": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.49404761904761907,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 26
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5297619047619048,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 26,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5696145124716553,
+        "validation_balanced_accuracy": 0.4230769230769231,
+        "validation_accuracy": 0.4230769230769231,
+        "validation_n": 26
+      }
+    },
+    "Downstairs vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Jogging vs Laying": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.42857142857142855,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.21428571428571427,
+        "validation_balanced_accuracy": 0.25,
+        "validation_accuracy": 0.25,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5178571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5178571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Jogging vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.7142857142857143,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.42857142857142855,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Laying vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.0,
+        "validation_accuracy": 0.0,
+        "validation_n": 4
+      }
+    },
+    "Sitting vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5714285714285714,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.25,
+        "validation_accuracy": 0.25,
+        "validation_n": 4
+      }
+    },
+    "Sitting vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Sitting vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.7142857142857143,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Standing vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Standing vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.25,
+        "validation_accuracy": 0.25,
+        "validation_n": 4
+      }
+    },
+    "Upstairs vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5178571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5178571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    }
+  },
+  "right-wrist": {
+    "Downstairs vs Jogging": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.6923076923076923,
+        "validation_accuracy": 0.4666666666666667,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.7307692307692308,
+        "validation_accuracy": 0.5333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.7307692307692308
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Laying": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9761904761904762,
+        "validation_balanced_accuracy": 0.9230769230769231,
+        "validation_accuracy": 0.8666666666666667,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.8461538461538461
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9761904761904762,
+        "validation_balanced_accuracy": 0.9230769230769231,
+        "validation_accuracy": 0.8666666666666667,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.8461538461538461
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9047619047619048,
+        "validation_balanced_accuracy": 0.9230769230769231,
+        "validation_accuracy": 0.8666666666666667,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.8461538461538461
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Downstairs vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.4230769230769231,
+        "validation_accuracy": 0.4230769230769231,
+        "validation_n": 26
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.7307692307692308,
+        "validation_accuracy": 0.7307692307692307,
+        "validation_n": 26,
+        "validation_shuffled_balanced_accuracy": 0.7307692307692308
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5696145124716553,
+        "validation_balanced_accuracy": 0.4230769230769231,
+        "validation_accuracy": 0.4230769230769231,
+        "validation_n": 26
+      }
+    },
+    "Downstairs vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.6923076923076923,
+        "validation_accuracy": 0.4666666666666667,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.4807692307692308,
+        "validation_accuracy": 0.4666666666666667,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.4807692307692308
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Jogging vs Laying": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.42857142857142855,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.35714285714285715,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Jogging vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5089285714285714,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Jogging vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.42857142857142855,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Sitting": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.2857142857142857,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5714285714285714,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.42857142857142855,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Laying vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Laying vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.25,
+        "validation_accuracy": 0.25,
+        "validation_n": 4
+      }
+    },
+    "Sitting vs Standing": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.6428571428571429,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 0.5
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.35714285714285715,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Sitting vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Sitting vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.2857142857142857,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "validation_n": 4
+      }
+    },
+    "Standing vs Upstairs": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.9285714285714286,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    },
+    "Standing vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 4,
+        "validation_shuffled_balanced_accuracy": 1.0
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 0.35714285714285715,
+        "validation_balanced_accuracy": 0.75,
+        "validation_accuracy": 0.75,
+        "validation_n": 4
+      }
+    },
+    "Upstairs vs Walking": {
+      "duty": {
+        "train_loso_balanced_accuracy": 0.5,
+        "validation_balanced_accuracy": 0.5,
+        "validation_accuracy": 0.13333333333333333,
+        "validation_n": 15
+      },
+      "temporal": {
+        "train_loso_balanced_accuracy": 0.5089285714285714,
+        "validation_balanced_accuracy": 0.25,
+        "validation_accuracy": 0.06666666666666667,
+        "validation_n": 15,
+        "validation_shuffled_balanced_accuracy": 0.25
+      },
+      "duration": {
+        "train_loso_balanced_accuracy": 1.0,
+        "validation_balanced_accuracy": 1.0,
+        "validation_accuracy": 1.0,
+        "validation_n": 15
+      }
+    }
+  }
+}

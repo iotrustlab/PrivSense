@@ -1,0 +1,313 @@
+{
+  "left-ankle": {
+    "train": {
+      "fixed100_unique": 3,
+      "fixed100_shared_groups": [
+        {
+          "Downstairs": 58,
+          "Jogging": 7,
+          "Standing": 1,
+          "Upstairs": 52,
+          "Walking": 7
+        },
+        {
+          "Laying": 7,
+          "Sitting": 7,
+          "Standing": 6,
+          "Upstairs": 1
+        }
+      ],
+      "constant_file_classes_by_bit": {
+        "0": {
+          "Laying": 6,
+          "Sitting": 7,
+          "Standing": 4
+        },
+        "1": {
+          "Downstairs": 51,
+          "Jogging": 7,
+          "Standing": 1,
+          "Upstairs": 47,
+          "Walking": 7
+        }
+      }
+    },
+    "validation": {
+      "fixed100_unique": 2,
+      "fixed100_shared_groups": [
+        {
+          "Downstairs": 13,
+          "Jogging": 2,
+          "Upstairs": 13,
+          "Walking": 2
+        },
+        {
+          "Laying": 2,
+          "Sitting": 2,
+          "Standing": 2
+        }
+      ],
+      "constant_file_classes_by_bit": {
+        "0": {
+          "Laying": 2,
+          "Sitting": 2,
+          "Standing": 1
+        },
+        "1": {
+          "Downstairs": 13,
+          "Jogging": 2,
+          "Upstairs": 13,
+          "Walking": 2
+        }
+      }
+    }
+  },
+  "left-wrist": {
+    "train": {
+      "fixed100_unique": 2,
+      "fixed100_shared_groups": [
+        {
+          "Downstairs": 53,
+          "Jogging": 7,
+          "Upstairs": 49,
+          "Walking": 7
+        },
+        {
+          "Laying": 7,
+          "Sitting": 7,
+          "Standing": 7,
+          "Downstairs": 5,
+          "Upstairs": 5
+        }
+      ],
+      "constant_file_classes_by_bit": {
+        "0": {
+          "Laying": 6,
+          "Sitting": 4,
+          "Standing": 3
+        },
+        "1": {
+          "Downstairs": 52,
+          "Jogging": 7,
+          "Upstairs": 49,
+          "Walking": 7
+        }
+      }
+    },
+    "validation": {
+      "fixed100_unique": 2,
+      "fixed100_shared_groups": [
+        {
+          "Downstairs": 13,
+          "Jogging": 2,
+          "Upstairs": 13,
+          "Walking": 2
+        },
+        {
+          "Laying": 2,
+          "Sitting": 2,
+          "Standing": 2
+        }
+      ],
+      "constant_file_classes_by_bit": {
+        "0": {
+          "Laying": 2,
+          "Sitting": 2,
+          "Standing": 2
+        },
+        "1": {
+          "Downstairs": 13,
+          "Jogging": 2,
+          "Upstairs": 13,
+          "Walking": 2
+        }
+      }
+    }
+  },
+  "right-ankle": {
+    "train": {
+      "fixed100_unique": 4,
+      "fixed100_shared_groups": [
+        {
+          "Downstairs": 54,
+          "Jogging": 7,
+          "Upstairs": 47,
+          "Walking": 7
+        },
+        {
+          "Laying": 7,
+          "Sitting": 7,
+          "Standing": 7,
+          "Upstairs": 6,
+          "Downstairs": 3
+        }
+      ],
+      "constant_file_classes_by_bit": {
+        "0": {
+          "Laying": 7,
+          "Sitting": 7,
+          "Standing": 5
+        },
+        "1": {
+          "Downstairs": 52,
+          "Jogging": 7,
+          "Upstairs": 47,
+          "Walking": 7
+        }
+      }
+    },
+    "validation": {
+      "fixed100_unique": 2,
+      "fixed100_shared_groups": [
+        {
+          "Downstairs": 13,
+          "Jogging": 2,
+          "Upstairs": 13,
+          "Walking": 2
+        },
+        {
+          "Laying": 2,
+          "Sitting": 2,
+          "Standing": 2
+        }
+      ],
+      "constant_file_classes_by_bit": {
+        "0": {
+          "Laying": 2,
+          "Sitting": 2,
+          "Standing": 1
+        },
+        "1": {
+          "Downstairs": 13,
+          "Jogging": 2,
+          "Upstairs": 13,
+          "Walking": 2
+        }
+      }
+    }
+  },
+  "right-pocket": {
+    "train": {
+      "fixed100_unique": 4,
+      "fixed100_shared_groups": [
+        {
+          "Downstairs": 52,
+          "Jogging": 7,
+          "Upstairs": 47,
+          "Walking": 7
+        },
+        {
+          "Laying": 7,
+          "Sitting": 7,
+          "Standing": 7,
+          "Upstairs": 6,
+          "Downstairs": 5
+        }
+      ],
+      "constant_file_classes_by_bit": {
+        "0": {
+          "Laying": 7,
+          "Sitting": 6,
+          "Standing": 4
+        },
+        "1": {
+          "Downstairs": 52,
+          "Jogging": 7,
+          "Upstairs": 47,
+          "Walking": 7
+        }
+      }
+    },
+    "validation": {
+      "fixed100_unique": 2,
+      "fixed100_shared_groups": [
+        {
+          "Downstairs": 13,
+          "Jogging": 2,
+          "Upstairs": 13,
+          "Walking": 2
+        },
+        {
+          "Laying": 2,
+          "Sitting": 2,
+          "Standing": 2
+        }
+      ],
+      "constant_file_classes_by_bit": {
+        "0": {
+          "Laying": 2,
+          "Sitting": 2,
+          "Standing": 2
+        },
+        "1": {
+          "Downstairs": 13,
+          "Jogging": 2,
+          "Upstairs": 13,
+          "Walking": 2
+        }
+      }
+    }
+  },
+  "right-wrist": {
+    "train": {
+      "fixed100_unique": 3,
+      "fixed100_shared_groups": [
+        {
+          "Downstairs": 53,
+          "Jogging": 7,
+          "Upstairs": 48,
+          "Walking": 7
+        },
+        {
+          "Laying": 7,
+          "Sitting": 7,
+          "Standing": 7,
+          "Downstairs": 5,
+          "Upstairs": 5
+        }
+      ],
+      "constant_file_classes_by_bit": {
+        "0": {
+          "Laying": 4,
+          "Sitting": 6,
+          "Standing": 4
+        },
+        "1": {
+          "Downstairs": 53,
+          "Jogging": 7,
+          "Upstairs": 48,
+          "Walking": 7
+        }
+      }
+    },
+    "validation": {
+      "fixed100_unique": 3,
+      "fixed100_shared_groups": [
+        {
+          "Downstairs": 11,
+          "Jogging": 2,
+          "Upstairs": 13,
+          "Walking": 2
+        },
+        {
+          "Laying": 2,
+          "Sitting": 2,
+          "Standing": 2
+        }
+      ],
+      "constant_file_classes_by_bit": {
+        "0": {
+          "Laying": 2,
+          "Sitting": 2,
+          "Standing": 2
+        },
+        "1": {
+          "Downstairs": 7,
+          "Jogging": 2,
+          "Upstairs": 13,
+          "Walking": 1
+        }
+      }
+    }
+  }
+}

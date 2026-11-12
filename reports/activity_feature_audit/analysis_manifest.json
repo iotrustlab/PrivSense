@@ -1,0 +1,68 @@
+{
+  "scope": "Restructured Stage 1, users 1\u20139 only, five placements, no APIs",
+  "features": {
+    "class_prior": [],
+    "duty_cycle": [
+      "fraction_ones"
+    ],
+    "duration_only": [
+      "duration_seconds"
+    ],
+    "temporal_no_explicit_duration": [
+      "fraction_ones",
+      "transition_rate_hz",
+      "mean_zero_run_fraction",
+      "mean_one_run_fraction",
+      "max_zero_run_fraction",
+      "max_one_run_fraction",
+      "segment_duty_std",
+      "segment_duty_slope",
+      "lag1_correlation",
+      "lag50_correlation"
+    ],
+    "combined_with_duration": [
+      "fraction_ones",
+      "transition_rate_hz",
+      "mean_zero_run_fraction",
+      "mean_one_run_fraction",
+      "max_zero_run_fraction",
+      "max_one_run_fraction",
+      "segment_duty_std",
+      "segment_duty_slope",
+      "lag1_correlation",
+      "lag50_correlation",
+      "duration_seconds"
+    ]
+  },
+  "candidate_features": [
+    "fraction_ones",
+    "duration_seconds",
+    "transition_count",
+    "transition_rate_hz",
+    "mean_zero_run_seconds",
+    "mean_one_run_seconds",
+    "max_zero_run_seconds",
+    "max_one_run_seconds",
+    "mean_zero_run_fraction",
+    "mean_one_run_fraction",
+    "max_zero_run_fraction",
+    "max_one_run_fraction",
+    "segment_duty_std",
+    "segment_duty_slope",
+    "lag1_correlation",
+    "lag50_correlation",
+    "binary_entropy",
+    "segment_duty_range",
+    "first_last_duty_difference",
+    "candidate_period_available",
+    "candidate_period_score"
+  ],
+  "training_selection": "Frozen candidate families and depth; single-feature ranking uses mean training-user LOSO balanced accuracy only; no evaluation-driven feature selection or tuning",
+  "estimator": "DecisionTreeClassifier(max_depth=3,min_samples_leaf=3,class_weight=balanced,random_state=42); single-feature and pair analysis depth=2; empirical majority DummyClassifier",
+  "durations": "N*0.02 sample coverage; time span (N-1)*0.02",
+  "order_control": "Permute complete 50-sample blocks, retain partial tail. Fixed row-based seeds 10000+i/20000+i, identical length/count. Artificial order control explicitly labeled. No source modifications.",
+  "preserved_files": 116,
+  "source_files": 915,
+  "sklearn_version": "1.7.2",
+  "numpy_version": "2.2.6"
+}
