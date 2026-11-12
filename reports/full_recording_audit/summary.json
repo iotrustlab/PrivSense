@@ -1,0 +1,183 @@
+{
+  "train": {
+    "files": 147,
+    "samples": 698230,
+    "varying": 17,
+    "transitions": 30,
+    "edges_after100": 28,
+    "edges_after500": 14,
+    "classes": {
+      "Downstairs": {
+        "files": 58,
+        "samples_min": 179,
+        "samples_median": 1330.5,
+        "samples_max": 2748,
+        "varying": 6,
+        "transitions": 6
+      },
+      "Jogging": {
+        "files": 7,
+        "samples_min": 14992,
+        "samples_median": 14995.0,
+        "samples_max": 14998,
+        "varying": 0,
+        "transitions": 0
+      },
+      "Laying": {
+        "files": 7,
+        "samples_min": 14992,
+        "samples_median": 14995.0,
+        "samples_max": 14995,
+        "varying": 0,
+        "transitions": 0
+      },
+      "Sitting": {
+        "files": 7,
+        "samples_min": 14992,
+        "samples_median": 14998.0,
+        "samples_max": 14999,
+        "varying": 1,
+        "transitions": 4
+      },
+      "Standing": {
+        "files": 7,
+        "samples_min": 14989,
+        "samples_median": 14995.0,
+        "samples_max": 15000,
+        "varying": 3,
+        "transitions": 10
+      },
+      "Upstairs": {
+        "files": 54,
+        "samples_min": 375,
+        "samples_median": 1642.5,
+        "samples_max": 2607,
+        "varying": 7,
+        "transitions": 10
+      },
+      "Walking": {
+        "files": 7,
+        "samples_min": 14989,
+        "samples_median": 14992.0,
+        "samples_max": 14998,
+        "varying": 0,
+        "transitions": 0
+      }
+    },
+    "signatures": {
+      "first100": {
+        "unique": 4,
+        "empirical_majority_bound": 0.41496598639455784
+      },
+      "first500": {
+        "unique": 14,
+        "empirical_majority_bound": 0.46938775510204084
+      },
+      "full": {
+        "unique": 118,
+        "empirical_majority_bound": 0.9115646258503401
+      },
+      "length": {
+        "unique": 110,
+        "empirical_majority_bound": 0.8299319727891157
+      },
+      "bit_and_length": {
+        "unique": 115,
+        "empirical_majority_bound": 0.8979591836734694
+      }
+    }
+  },
+  "validation": {
+    "files": 36,
+    "samples": 196760,
+    "varying": 0,
+    "transitions": 0,
+    "edges_after100": 0,
+    "edges_after500": 0,
+    "classes": {
+      "Downstairs": {
+        "files": 13,
+        "samples_min": 643,
+        "samples_median": 1771.0,
+        "samples_max": 2166,
+        "varying": 0,
+        "transitions": 0
+      },
+      "Jogging": {
+        "files": 2,
+        "samples_min": 14992,
+        "samples_median": 14995.0,
+        "samples_max": 14998,
+        "varying": 0,
+        "transitions": 0
+      },
+      "Laying": {
+        "files": 2,
+        "samples_min": 14992,
+        "samples_median": 14992.0,
+        "samples_max": 14992,
+        "varying": 0,
+        "transitions": 0
+      },
+      "Sitting": {
+        "files": 2,
+        "samples_min": 14989,
+        "samples_median": 14992.0,
+        "samples_max": 14995,
+        "varying": 0,
+        "transitions": 0
+      },
+      "Standing": {
+        "files": 2,
+        "samples_min": 14989,
+        "samples_median": 14993.5,
+        "samples_max": 14998,
+        "varying": 0,
+        "transitions": 0
+      },
+      "Upstairs": {
+        "files": 13,
+        "samples_min": 656,
+        "samples_median": 1854.0,
+        "samples_max": 2340,
+        "varying": 0,
+        "transitions": 0
+      },
+      "Walking": {
+        "files": 2,
+        "samples_min": 14995,
+        "samples_median": 14995.0,
+        "samples_max": 14995,
+        "varying": 0,
+        "transitions": 0
+      }
+    },
+    "signatures": {
+      "first100": {
+        "unique": 2,
+        "empirical_majority_bound": 0.4166666666666667
+      },
+      "first500": {
+        "unique": 2,
+        "empirical_majority_bound": 0.4166666666666667
+      },
+      "full": {
+        "unique": 32,
+        "empirical_majority_bound": 0.9722222222222222
+      },
+      "length": {
+        "unique": 29,
+        "empirical_majority_bound": 0.8888888888888888
+      },
+      "bit_and_length": {
+        "unique": 32,
+        "empirical_majority_bound": 0.9722222222222222
+      }
+    }
+  },
+  "length_nearest_training_recording": {
+    "correct": 16,
+    "n": 36,
+    "note": "exploratory length-only predictor; no Qwen, no fitting on validation"
+  }
+}

@@ -1,0 +1,1138 @@
+[
+  {
+    "id": "target-0148-C4",
+    "condition": "C4",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 79164,
+    "output_tokens": 177,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0213-C1",
+    "condition": "C1",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 1382,
+    "output_tokens": 193,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0180-C3",
+    "condition": "C3",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 16276,
+    "output_tokens": 194,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0262-C5",
+    "condition": "C5",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 77845,
+    "output_tokens": 248,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0050-C2",
+    "condition": "C2",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77445,
+    "output_tokens": 218,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0253-C1",
+    "condition": "C1",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 1382,
+    "output_tokens": 162,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0345-C3",
+    "condition": "C3",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 16276,
+    "output_tokens": 193,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0077-C5",
+    "condition": "C5",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 77845,
+    "output_tokens": 221,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0008-C2",
+    "condition": "C2",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 77445,
+    "output_tokens": 233,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0321-C4",
+    "condition": "C4",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 79644,
+    "output_tokens": 222,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0046-C1",
+    "condition": "C1",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 1382,
+    "output_tokens": 195,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0294-C3",
+    "condition": "C3",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 16270,
+    "output_tokens": 192,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0131-C5",
+    "condition": "C5",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 77845,
+    "output_tokens": 218,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0191-C2",
+    "condition": "C2",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77445,
+    "output_tokens": 198,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0213-C3",
+    "condition": "C3",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 16273,
+    "output_tokens": 191,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0180-C5",
+    "condition": "C5",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77845,
+    "output_tokens": 206,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0262-C2",
+    "condition": "C2",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77445,
+    "output_tokens": 261,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0050-C4",
+    "condition": "C4",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 92336,
+    "output_tokens": 217,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0148-C1",
+    "condition": "C1",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 1382,
+    "output_tokens": 181,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0253-C3",
+    "condition": "C3",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 16273,
+    "output_tokens": 212,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0345-C5",
+    "condition": "C5",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77845,
+    "output_tokens": 222,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0077-C2",
+    "condition": "C2",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 77445,
+    "output_tokens": 239,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0008-C4",
+    "condition": "C4",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 79099,
+    "output_tokens": 213,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0321-C1",
+    "condition": "C1",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 1382,
+    "output_tokens": 201,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0046-C3",
+    "condition": "C3",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 16279,
+    "output_tokens": 195,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0294-C5",
+    "condition": "C5",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 77845,
+    "output_tokens": 202,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0131-C2",
+    "condition": "C2",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      "reference"
+    ],
+    "input_tokens": 77445,
+    "output_tokens": 201,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0191-C4",
+    "condition": "C4",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 79510,
+    "output_tokens": 222,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0213-C5",
+    "condition": "C5",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77845,
+    "output_tokens": 197,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0180-C2",
+    "condition": "C2",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77445,
+    "output_tokens": 225,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0262-C4",
+    "condition": "C4",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 92339,
+    "output_tokens": 250,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0050-C1",
+    "condition": "C1",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      "reference"
+    ],
+    "input_tokens": 1382,
+    "output_tokens": 167,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0148-C3",
+    "condition": "C3",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 3101,
+    "output_tokens": 189,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0253-C5",
+    "condition": "C5",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 77845,
+    "output_tokens": 203,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0345-C2",
+    "condition": "C2",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 77445,
+    "output_tokens": 226,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0077-C4",
+    "condition": "C4",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 92333,
+    "output_tokens": 225,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0008-C1",
+    "condition": "C1",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 1382,
+    "output_tokens": 188,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0321-C3",
+    "condition": "C3",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 3581,
+    "output_tokens": 188,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0046-C5",
+    "condition": "C5",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 77845,
+    "output_tokens": 229,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0294-C2",
+    "condition": "C2",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77445,
+    "output_tokens": 227,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0131-C4",
+    "condition": "C4",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 92342,
+    "output_tokens": 215,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0191-C1",
+    "condition": "C1",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 1382,
+    "output_tokens": 176,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0213-C2",
+    "condition": "C2",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77445,
+    "output_tokens": 191,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0180-C4",
+    "condition": "C4",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 92339,
+    "output_tokens": 216,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0262-C1",
+    "condition": "C1",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 1382,
+    "output_tokens": 170,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0050-C3",
+    "condition": "C3",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      "reference"
+    ],
+    "input_tokens": 16273,
+    "output_tokens": 190,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0148-C5",
+    "condition": "C5",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77845,
+    "output_tokens": 215,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0253-C2",
+    "condition": "C2",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      "reference"
+    ],
+    "input_tokens": 77445,
+    "output_tokens": 238,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0345-C4",
+    "condition": "C4",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 92339,
+    "output_tokens": 244,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0077-C1",
+    "condition": "C1",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 1382,
+    "output_tokens": 167,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0008-C3",
+    "condition": "C3",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 3036,
+    "output_tokens": 210,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0321-C5",
+    "condition": "C5",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77845,
+    "output_tokens": 210,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0046-C2",
+    "condition": "C2",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77445,
+    "output_tokens": 198,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0294-C4",
+    "condition": "C4",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 92333,
+    "output_tokens": 187,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0131-C1",
+    "condition": "C1",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      "reference"
+    ],
+    "input_tokens": 1382,
+    "output_tokens": 135,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0191-C3",
+    "condition": "C3",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 3447,
+    "output_tokens": 196,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0213-C4",
+    "condition": "C4",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 92336,
+    "output_tokens": 219,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0180-C1",
+    "condition": "C1",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 1382,
+    "output_tokens": 193,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0262-C3",
+    "condition": "C3",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 16276,
+    "output_tokens": 211,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0050-C5",
+    "condition": "C5",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 77845,
+    "output_tokens": 217,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0148-C2",
+    "condition": "C2",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77445,
+    "output_tokens": 198,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0253-C4",
+    "condition": "C4",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 92336,
+    "output_tokens": 189,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0345-C1",
+    "condition": "C1",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 1382,
+    "output_tokens": 159,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0077-C3",
+    "condition": "C3",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 16270,
+    "output_tokens": 175,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0008-C5",
+    "condition": "C5",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77845,
+    "output_tokens": 212,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0321-C2",
+    "condition": "C2",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 77445,
+    "output_tokens": 215,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0046-C4",
+    "condition": "C4",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 92342,
+    "output_tokens": 234,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0294-C1",
+    "condition": "C1",
+    "status": "valid",
+    "categories": [],
+    "missing": [],
+    "extra": [],
+    "input_tokens": 1382,
+    "output_tokens": 213,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0131-C3",
+    "condition": "C3",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 16279,
+    "output_tokens": 192,
+    "target_bit": "0",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  },
+  {
+    "id": "target-0191-C5",
+    "condition": "C5",
+    "status": "invalid_response",
+    "categories": [
+      "missing_or_misnamed_fields"
+    ],
+    "missing": [
+      "explanation"
+    ],
+    "extra": [
+      " explanation"
+    ],
+    "input_tokens": 77845,
+    "output_tokens": 214,
+    "target_bit": "1",
+    "finish_reason": "stop",
+    "reasoning_tokens": 0,
+    "provider": "DeepInfra"
+  }
+]

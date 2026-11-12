@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "target-0213",
+    "condition": "C1",
+    "encoding": "array",
+    "content_tokens": 2937,
+    "budget_tokens": 4561,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0180",
+    "condition": "C1",
+    "encoding": "array",
+    "content_tokens": 2937,
+    "budget_tokens": 4561,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0262",
+    "condition": "C1",
+    "encoding": "array",
+    "content_tokens": 2937,
+    "budget_tokens": 4561,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0050",
+    "condition": "C1",
+    "encoding": "array",
+    "content_tokens": 2937,
+    "budget_tokens": 4561,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0148",
+    "condition": "C1",
+    "encoding": "array",
+    "content_tokens": 2937,
+    "budget_tokens": 4561,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0253",
+    "condition": "C1",
+    "encoding": "array",
+    "content_tokens": 2937,
+    "budget_tokens": 4561,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0345",
+    "condition": "C1",
+    "encoding": "array",
+    "content_tokens": 2937,
+    "budget_tokens": 4561,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0077",
+    "condition": "C1",
+    "encoding": "array",
+    "content_tokens": 2937,
+    "budget_tokens": 4561,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0008",
+    "condition": "C1",
+    "encoding": "array",
+    "content_tokens": 2937,
+    "budget_tokens": 4561,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0321",
+    "condition": "C1",
+    "encoding": "array",
+    "content_tokens": 2937,
+    "budget_tokens": 4561,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0046",
+    "condition": "C1",
+    "encoding": "array",
+    "content_tokens": 2937,
+    "budget_tokens": 4561,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0294",
+    "condition": "C1",
+    "encoding": "array",
+    "content_tokens": 2937,
+    "budget_tokens": 4561,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0131",
+    "condition": "C1",
+    "encoding": "array",
+    "content_tokens": 2937,
+    "budget_tokens": 4561,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0191",
+    "condition": "C1",
+    "encoding": "array",
+    "content_tokens": 2937,
+    "budget_tokens": 4561,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0213",
+    "condition": "C2",
+    "encoding": "array",
+    "content_tokens": 231140,
+    "budget_tokens": 232764,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0180",
+    "condition": "C2",
+    "encoding": "array",
+    "content_tokens": 231140,
+    "budget_tokens": 232764,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0262",
+    "condition": "C2",
+    "encoding": "array",
+    "content_tokens": 231140,
+    "budget_tokens": 232764,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0050",
+    "condition": "C2",
+    "encoding": "array",
+    "content_tokens": 231140,
+    "budget_tokens": 232764,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0148",
+    "condition": "C2",
+    "encoding": "array",
+    "content_tokens": 231140,
+    "budget_tokens": 232764,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0253",
+    "condition": "C2",
+    "encoding": "array",
+    "content_tokens": 231140,
+    "budget_tokens": 232764,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0345",
+    "condition": "C2",
+    "encoding": "array",
+    "content_tokens": 231140,
+    "budget_tokens": 232764,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0077",
+    "condition": "C2",
+    "encoding": "array",
+    "content_tokens": 231140,
+    "budget_tokens": 232764,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0008",
+    "condition": "C2",
+    "encoding": "array",
+    "content_tokens": 231140,
+    "budget_tokens": 232764,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0321",
+    "condition": "C2",
+    "encoding": "array",
+    "content_tokens": 231140,
+    "budget_tokens": 232764,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0046",
+    "condition": "C2",
+    "encoding": "array",
+    "content_tokens": 231140,
+    "budget_tokens": 232764,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0294",
+    "condition": "C2",
+    "encoding": "array",
+    "content_tokens": 231140,
+    "budget_tokens": 232764,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0131",
+    "condition": "C2",
+    "encoding": "array",
+    "content_tokens": 231140,
+    "budget_tokens": 232764,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0191",
+    "condition": "C2",
+    "encoding": "array",
+    "content_tokens": 231140,
+    "budget_tokens": 232764,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0213",
+    "condition": "C3",
+    "encoding": "array",
+    "content_tokens": 47612,
+    "budget_tokens": 49236,
+    "target_samples": 14992,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0180",
+    "condition": "C3",
+    "encoding": "array",
+    "content_tokens": 47621,
+    "budget_tokens": 49245,
+    "target_samples": 14995,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0262",
+    "condition": "C3",
+    "encoding": "array",
+    "content_tokens": 47621,
+    "budget_tokens": 49245,
+    "target_samples": 14995,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0050",
+    "condition": "C3",
+    "encoding": "array",
+    "content_tokens": 47612,
+    "budget_tokens": 49236,
+    "target_samples": 14992,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0148",
+    "condition": "C3",
+    "encoding": "array",
+    "content_tokens": 8096,
+    "budget_tokens": 9720,
+    "target_samples": 1820,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0253",
+    "condition": "C3",
+    "encoding": "array",
+    "content_tokens": 47612,
+    "budget_tokens": 49236,
+    "target_samples": 14992,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0345",
+    "condition": "C3",
+    "encoding": "array",
+    "content_tokens": 47621,
+    "budget_tokens": 49245,
+    "target_samples": 14995,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0077",
+    "condition": "C3",
+    "encoding": "array",
+    "content_tokens": 47603,
+    "budget_tokens": 49227,
+    "target_samples": 14989,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0008",
+    "condition": "C3",
+    "encoding": "array",
+    "content_tokens": 7901,
+    "budget_tokens": 9525,
+    "target_samples": 1755,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0321",
+    "condition": "C3",
+    "encoding": "array",
+    "content_tokens": 9536,
+    "budget_tokens": 11160,
+    "target_samples": 2300,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0046",
+    "condition": "C3",
+    "encoding": "array",
+    "content_tokens": 47630,
+    "budget_tokens": 49254,
+    "target_samples": 14998,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0294",
+    "condition": "C3",
+    "encoding": "array",
+    "content_tokens": 47603,
+    "budget_tokens": 49227,
+    "target_samples": 14989,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0131",
+    "condition": "C3",
+    "encoding": "array",
+    "content_tokens": 47630,
+    "budget_tokens": 49254,
+    "target_samples": 14998,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0191",
+    "condition": "C3",
+    "encoding": "array",
+    "content_tokens": 9134,
+    "budget_tokens": 10758,
+    "target_samples": 2166,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0213",
+    "condition": "C4",
+    "encoding": "array",
+    "content_tokens": 275815,
+    "budget_tokens": 277439,
+    "target_samples": 14992,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0180",
+    "condition": "C4",
+    "encoding": "array",
+    "content_tokens": 275824,
+    "budget_tokens": 277448,
+    "target_samples": 14995,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0262",
+    "condition": "C4",
+    "encoding": "array",
+    "content_tokens": 275824,
+    "budget_tokens": 277448,
+    "target_samples": 14995,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0050",
+    "condition": "C4",
+    "encoding": "array",
+    "content_tokens": 275815,
+    "budget_tokens": 277439,
+    "target_samples": 14992,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0148",
+    "condition": "C4",
+    "encoding": "array",
+    "content_tokens": 236299,
+    "budget_tokens": 237923,
+    "target_samples": 1820,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0253",
+    "condition": "C4",
+    "encoding": "array",
+    "content_tokens": 275815,
+    "budget_tokens": 277439,
+    "target_samples": 14992,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0345",
+    "condition": "C4",
+    "encoding": "array",
+    "content_tokens": 275824,
+    "budget_tokens": 277448,
+    "target_samples": 14995,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0077",
+    "condition": "C4",
+    "encoding": "array",
+    "content_tokens": 275806,
+    "budget_tokens": 277430,
+    "target_samples": 14989,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0008",
+    "condition": "C4",
+    "encoding": "array",
+    "content_tokens": 236104,
+    "budget_tokens": 237728,
+    "target_samples": 1755,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0321",
+    "condition": "C4",
+    "encoding": "array",
+    "content_tokens": 237739,
+    "budget_tokens": 239363,
+    "target_samples": 2300,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0046",
+    "condition": "C4",
+    "encoding": "array",
+    "content_tokens": 275833,
+    "budget_tokens": 277457,
+    "target_samples": 14998,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0294",
+    "condition": "C4",
+    "encoding": "array",
+    "content_tokens": 275806,
+    "budget_tokens": 277430,
+    "target_samples": 14989,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0131",
+    "condition": "C4",
+    "encoding": "array",
+    "content_tokens": 275833,
+    "budget_tokens": 277457,
+    "target_samples": 14998,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0191",
+    "condition": "C4",
+    "encoding": "array",
+    "content_tokens": 237337,
+    "budget_tokens": 238961,
+    "target_samples": 2166,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0213",
+    "condition": "C1",
+    "encoding": "string",
+    "content_tokens": 1365,
+    "budget_tokens": 2989,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0180",
+    "condition": "C1",
+    "encoding": "string",
+    "content_tokens": 1365,
+    "budget_tokens": 2989,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0262",
+    "condition": "C1",
+    "encoding": "string",
+    "content_tokens": 1365,
+    "budget_tokens": 2989,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0050",
+    "condition": "C1",
+    "encoding": "string",
+    "content_tokens": 1365,
+    "budget_tokens": 2989,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0148",
+    "condition": "C1",
+    "encoding": "string",
+    "content_tokens": 1365,
+    "budget_tokens": 2989,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0253",
+    "condition": "C1",
+    "encoding": "string",
+    "content_tokens": 1365,
+    "budget_tokens": 2989,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0345",
+    "condition": "C1",
+    "encoding": "string",
+    "content_tokens": 1365,
+    "budget_tokens": 2989,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0077",
+    "condition": "C1",
+    "encoding": "string",
+    "content_tokens": 1365,
+    "budget_tokens": 2989,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0008",
+    "condition": "C1",
+    "encoding": "string",
+    "content_tokens": 1365,
+    "budget_tokens": 2989,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0321",
+    "condition": "C1",
+    "encoding": "string",
+    "content_tokens": 1365,
+    "budget_tokens": 2989,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0046",
+    "condition": "C1",
+    "encoding": "string",
+    "content_tokens": 1365,
+    "budget_tokens": 2989,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0294",
+    "condition": "C1",
+    "encoding": "string",
+    "content_tokens": 1365,
+    "budget_tokens": 2989,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0131",
+    "condition": "C1",
+    "encoding": "string",
+    "content_tokens": 1365,
+    "budget_tokens": 2989,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0191",
+    "condition": "C1",
+    "encoding": "string",
+    "content_tokens": 1365,
+    "budget_tokens": 2989,
+    "target_samples": 100,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0213",
+    "condition": "C2",
+    "encoding": "string",
+    "content_tokens": 77428,
+    "budget_tokens": 79052,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0180",
+    "condition": "C2",
+    "encoding": "string",
+    "content_tokens": 77428,
+    "budget_tokens": 79052,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0262",
+    "condition": "C2",
+    "encoding": "string",
+    "content_tokens": 77428,
+    "budget_tokens": 79052,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0050",
+    "condition": "C2",
+    "encoding": "string",
+    "content_tokens": 77428,
+    "budget_tokens": 79052,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0148",
+    "condition": "C2",
+    "encoding": "string",
+    "content_tokens": 77428,
+    "budget_tokens": 79052,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0253",
+    "condition": "C2",
+    "encoding": "string",
+    "content_tokens": 77428,
+    "budget_tokens": 79052,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0345",
+    "condition": "C2",
+    "encoding": "string",
+    "content_tokens": 77428,
+    "budget_tokens": 79052,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0077",
+    "condition": "C2",
+    "encoding": "string",
+    "content_tokens": 77428,
+    "budget_tokens": 79052,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0008",
+    "condition": "C2",
+    "encoding": "string",
+    "content_tokens": 77428,
+    "budget_tokens": 79052,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0321",
+    "condition": "C2",
+    "encoding": "string",
+    "content_tokens": 77428,
+    "budget_tokens": 79052,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0046",
+    "condition": "C2",
+    "encoding": "string",
+    "content_tokens": 77428,
+    "budget_tokens": 79052,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0294",
+    "condition": "C2",
+    "encoding": "string",
+    "content_tokens": 77428,
+    "budget_tokens": 79052,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0131",
+    "condition": "C2",
+    "encoding": "string",
+    "content_tokens": 77428,
+    "budget_tokens": 79052,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0191",
+    "condition": "C2",
+    "encoding": "string",
+    "content_tokens": 77428,
+    "budget_tokens": 79052,
+    "target_samples": 100,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0213",
+    "condition": "C3",
+    "encoding": "string",
+    "content_tokens": 16256,
+    "budget_tokens": 17880,
+    "target_samples": 14992,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0180",
+    "condition": "C3",
+    "encoding": "string",
+    "content_tokens": 16259,
+    "budget_tokens": 17883,
+    "target_samples": 14995,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0262",
+    "condition": "C3",
+    "encoding": "string",
+    "content_tokens": 16259,
+    "budget_tokens": 17883,
+    "target_samples": 14995,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0050",
+    "condition": "C3",
+    "encoding": "string",
+    "content_tokens": 16256,
+    "budget_tokens": 17880,
+    "target_samples": 14992,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0148",
+    "condition": "C3",
+    "encoding": "string",
+    "content_tokens": 3084,
+    "budget_tokens": 4708,
+    "target_samples": 1820,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0253",
+    "condition": "C3",
+    "encoding": "string",
+    "content_tokens": 16256,
+    "budget_tokens": 17880,
+    "target_samples": 14992,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0345",
+    "condition": "C3",
+    "encoding": "string",
+    "content_tokens": 16259,
+    "budget_tokens": 17883,
+    "target_samples": 14995,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0077",
+    "condition": "C3",
+    "encoding": "string",
+    "content_tokens": 16253,
+    "budget_tokens": 17877,
+    "target_samples": 14989,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0008",
+    "condition": "C3",
+    "encoding": "string",
+    "content_tokens": 3019,
+    "budget_tokens": 4643,
+    "target_samples": 1755,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0321",
+    "condition": "C3",
+    "encoding": "string",
+    "content_tokens": 3564,
+    "budget_tokens": 5188,
+    "target_samples": 2300,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0046",
+    "condition": "C3",
+    "encoding": "string",
+    "content_tokens": 16262,
+    "budget_tokens": 17886,
+    "target_samples": 14998,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0294",
+    "condition": "C3",
+    "encoding": "string",
+    "content_tokens": 16253,
+    "budget_tokens": 17877,
+    "target_samples": 14989,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0131",
+    "condition": "C3",
+    "encoding": "string",
+    "content_tokens": 16262,
+    "budget_tokens": 17886,
+    "target_samples": 14998,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0191",
+    "condition": "C3",
+    "encoding": "string",
+    "content_tokens": 3430,
+    "budget_tokens": 5054,
+    "target_samples": 2166,
+    "reference_samples": 700
+  },
+  {
+    "id": "target-0213",
+    "condition": "C4",
+    "encoding": "string",
+    "content_tokens": 92319,
+    "budget_tokens": 93943,
+    "target_samples": 14992,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0180",
+    "condition": "C4",
+    "encoding": "string",
+    "content_tokens": 92322,
+    "budget_tokens": 93946,
+    "target_samples": 14995,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0262",
+    "condition": "C4",
+    "encoding": "string",
+    "content_tokens": 92322,
+    "budget_tokens": 93946,
+    "target_samples": 14995,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0050",
+    "condition": "C4",
+    "encoding": "string",
+    "content_tokens": 92319,
+    "budget_tokens": 93943,
+    "target_samples": 14992,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0148",
+    "condition": "C4",
+    "encoding": "string",
+    "content_tokens": 79147,
+    "budget_tokens": 80771,
+    "target_samples": 1820,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0253",
+    "condition": "C4",
+    "encoding": "string",
+    "content_tokens": 92319,
+    "budget_tokens": 93943,
+    "target_samples": 14992,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0345",
+    "condition": "C4",
+    "encoding": "string",
+    "content_tokens": 92322,
+    "budget_tokens": 93946,
+    "target_samples": 14995,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0077",
+    "condition": "C4",
+    "encoding": "string",
+    "content_tokens": 92316,
+    "budget_tokens": 93940,
+    "target_samples": 14989,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0008",
+    "condition": "C4",
+    "encoding": "string",
+    "content_tokens": 79082,
+    "budget_tokens": 80706,
+    "target_samples": 1755,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0321",
+    "condition": "C4",
+    "encoding": "string",
+    "content_tokens": 79627,
+    "budget_tokens": 81251,
+    "target_samples": 2300,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0046",
+    "condition": "C4",
+    "encoding": "string",
+    "content_tokens": 92325,
+    "budget_tokens": 93949,
+    "target_samples": 14998,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0294",
+    "condition": "C4",
+    "encoding": "string",
+    "content_tokens": 92316,
+    "budget_tokens": 93940,
+    "target_samples": 14989,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0131",
+    "condition": "C4",
+    "encoding": "string",
+    "content_tokens": 92325,
+    "budget_tokens": 93949,
+    "target_samples": 14998,
+    "reference_samples": 76770
+  },
+  {
+    "id": "target-0191",
+    "condition": "C4",
+    "encoding": "string",
+    "content_tokens": 79493,
+    "budget_tokens": 81117,
+    "target_samples": 2166,
+    "reference_samples": 76770
+  }
+]

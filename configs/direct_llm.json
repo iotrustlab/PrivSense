@@ -1,0 +1,17 @@
+{
+  "dataset": "../Datasets/Data_STM-DT",
+  "subjects": [
+    8,
+    9
+  ],
+  "placement": "right-pocket",
+  "window_samples": 100,
+  "sample_interval_us": 20000,
+  "seed": 42,
+  "model": "qwen/qwen3.5-35b-a3b",
+  "temperature": 0.1,
+  "max_tokens": 600,
+  "concurrency": 8,
+  "timeout_seconds": 60,
+  "reasoning_enabled": false
+}

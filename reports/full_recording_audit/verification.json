@@ -1,0 +1,13 @@
+{
+  "preserved_files": 62,
+  "all_prior_hashes_match": true,
+  "source_recordings": 183,
+  "source_headers_verified": true,
+  "source_reconstruction_passed": true,
+  "tokenizer_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+  "tokenizer_config_sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+  "tokenizer_library": "0.23.3",
+  "model_metadata_url": "https://openrouter.ai/api/v1/models/qwen/qwen3.5-35b-a3b/endpoints",
+  "tokenizer_url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B/resolve/main/tokenizer.json",
+  "inference_calls": 0
+}

@@ -1,0 +1,105 @@
+{
+  "C1": {
+    "n": 14,
+    "invalid": 5,
+    "categories": {
+      "missing_or_misnamed_fields": 5
+    },
+    "wrong_keys": {
+      " explanation": 3,
+      "reference": 2
+    },
+    "output_range": [
+      135,
+      213
+    ],
+    "input_range": [
+      1382,
+      1382
+    ],
+    "zeros_invalid": 5,
+    "ones_invalid": 0
+  },
+  "C2": {
+    "n": 14,
+    "invalid": 5,
+    "categories": {
+      "missing_or_misnamed_fields": 5
+    },
+    "wrong_keys": {
+      " explanation": 3,
+      "reference": 2
+    },
+    "output_range": [
+      191,
+      261
+    ],
+    "input_range": [
+      77445,
+      77445
+    ],
+    "zeros_invalid": 3,
+    "ones_invalid": 2
+  },
+  "C3": {
+    "n": 14,
+    "invalid": 4,
+    "categories": {
+      "missing_or_misnamed_fields": 4
+    },
+    "wrong_keys": {
+      "reference": 1,
+      " explanation": 3
+    },
+    "output_range": [
+      175,
+      212
+    ],
+    "input_range": [
+      3036,
+      16279
+    ],
+    "zeros_invalid": 4,
+    "ones_invalid": 0
+  },
+  "C4": {
+    "n": 14,
+    "invalid": 4,
+    "categories": {
+      "missing_or_misnamed_fields": 4
+    },
+    "wrong_keys": {
+      " explanation": 4
+    },
+    "output_range": [
+      177,
+      250
+    ],
+    "input_range": [
+      79099,
+      92342
+    ],
+    "zeros_invalid": 4,
+    "ones_invalid": 0
+  },
+  "C5": {
+    "n": 14,
+    "invalid": 8,
+    "categories": {
+      "missing_or_misnamed_fields": 8
+    },
+    "wrong_keys": {
+      " explanation": 8
+    },
+    "output_range": [
+      197,
+      248
+    ],
+    "input_range": [
+      77845,
+      77845
+    ],
+    "zeros_invalid": 6,
+    "ones_invalid": 2
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "json_schema",
+  "json_schema": {
+    "name": "privsense_inference_v2",
+    "strict": true,
+    "schema": {
+      "type": "object",
+      "properties": {
+        "predicted_activity": {
+          "type": "string",
+          "enum": [
+            "Downstairs",
+            "Jogging",
+            "Laying",
+            "Sitting",
+            "Standing",
+            "Upstairs",
+            "Walking"
+          ]
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "sufficient_information": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "predicted_activity",
+        "confidence",
+        "sufficient_information"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

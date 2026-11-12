@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You are evaluating whether limited sensor outputs reveal private information about human activities.\n\nYou are an attacker who can observe only the binary outputs of a shake/no-shake sensor interface.\n\nYou do not have access to the raw sensor readings, internal model, or the true activity labels.\n\nUse only the information supplied in the current observation.\n\nDo not invent measurements or assume access to unavailable information.\n\nIf multiple activities are consistent with the observation, acknowledge that uncertainty."
+  },
+  {
+    "role": "user",
+    "content": "Here is a sequence of binary observations from a sensing system.\n\nBinary meaning:\n0 = static/no shake\n1 = shake\n\nObserved sequence:\n[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]\n\nThe person was performing one of these activities:\nDownstairs, Jogging, Laying, Sitting, Standing, Upstairs, Walking.\n\nBased on the available information:\n1. Which activity is most likely?\n2. Why?\n3. Which other activities are plausible?\n4. Is the information sufficient to make a reliable distinction?\n\nReturn only a JSON object containing:\n- predicted_activity: exactly one of the seven activity names\n- explanation: a brief explanation grounded in the observation\n- alternative_activities: a list of other plausible activity names\n- confidence: a number from 0 to 1 expressing confidence in the exact predicted activity\n- sufficient_information: a boolean indicating whether the observation reliably distinguishes the exact activity"
+  }
+]

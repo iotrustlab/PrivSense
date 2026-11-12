@@ -1,0 +1,13 @@
+{
+  "direct_llm.py": "93bb930f0d967ebca1d4300d9a2b5373bc8c7e2437b7e78fadd132eabdcd1518",
+  "experiment.py": "df1b4435905dbb1c32bf5ca944700934f95d219a40ba4ac23f6069baa989971a",
+  "direct_report.py": "840e4f8f4137f3b13b00ff0a14005cfc72b9ded287619d93a7a11522d4e8e456",
+  "runs/direct-stage1-full/run.json": "7548c0c70350ee37ffb6f21c8da4ab416fa26c6c83c0e70c59296640af0731cb",
+  "runs/direct-stage1-full/responses.jsonl": "c89261c46a13d5402c5a4cc7aee8044218f9f022245e84e664f354d0ee84ea2a",
+  "runs/direct-stage1-full/evaluation.json": "66c9e1732132d18230a96d700ddee30876402be9f30dfe00514aecfc54c7ff7a",
+  "data/direct-stage1/smoke_observations.jsonl": "f9de983fdbb0cc2c333e4b8a750c58be1f6a5df121582bf3a3a596f8e8b1e581",
+  "data/direct-stage1/manifest.json": "9200f331a518d7472f0a211f25a124d4fbf1863c9efd3122e2fa66340588fe1b",
+  "data/direct-stage1/truth.jsonl": "ef3e0d1364dbbc3570477db24b00cc9a63121c757a8e8640fda277372bd08282",
+  "data/direct-stage1/observations.jsonl": "434c5336ae2b8f854d323a905525759e9da66d3690aaae4d1835df02e7932a73",
+  "reports/direct_llm_inference_pilot.md": "5c5ab9a74cd571c50fb92228f825e6e32380876e310be45eb6f1e4db17f44801"
+}

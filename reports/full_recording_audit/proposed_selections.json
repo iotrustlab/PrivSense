@@ -1,0 +1,174 @@
+{
+  "references": [
+    {
+      "activity": "Downstairs",
+      "source": "User 1/Processed/Downstairs/right-pocket/right-pocket_downstairs1.csv",
+      "subject": 1,
+      "sha256": "1567772fd78374d3e7f3060a807791e7711e6a244efa35147836d2f9eef60b34",
+      "samples": 512,
+      "transitions": 0
+    },
+    {
+      "activity": "Jogging",
+      "source": "User 2/Processed/Jogging/right-pocket.csv",
+      "subject": 2,
+      "sha256": "129f3ef3682ccfdc1a7fda75982c7bc9da06b0e1fdd4b6326009dc80d795e602",
+      "samples": 14992,
+      "transitions": 0
+    },
+    {
+      "activity": "Laying",
+      "source": "User 3/Processed/Laying/right-pocket.csv",
+      "subject": 3,
+      "sha256": "391cc1710b06e8a9527a0f5ca5eb4331129371b5c4861b1757f46c298987f0af",
+      "samples": 14995,
+      "transitions": 0
+    },
+    {
+      "activity": "Sitting",
+      "source": "User 4/Processed/Sitting/right-pocket.csv",
+      "subject": 4,
+      "sha256": "25c8871cd01d20fce25734e693f20daedaf6ba829894c9b928b5a707f016f781",
+      "samples": 14992,
+      "transitions": 0
+    },
+    {
+      "activity": "Standing",
+      "source": "User 5/Processed/Standing/right-pocket.csv",
+      "subject": 5,
+      "sha256": "05bbd80ff4bde71d388745dafc1e7003d834ce0f48fdbedd29d9bc52b111ebda",
+      "samples": 14995,
+      "transitions": 4
+    },
+    {
+      "activity": "Upstairs",
+      "source": "User 6/Processed/Upstairs/right-pocket/right-pocket_upstairs1.csv",
+      "subject": 6,
+      "sha256": "518300452232c3a4807ec932e055484c2c1a34c11ecfff9d9147b1b6a392fcee",
+      "samples": 1295,
+      "transitions": 0
+    },
+    {
+      "activity": "Walking",
+      "source": "User 7/Processed/Walking/right-pocket.csv",
+      "subject": 7,
+      "sha256": "d0b66db485fd9d55330ccb9ed893bdf52918dbcf17c6118bbf3620c6d6421b01",
+      "samples": 14989,
+      "transitions": 0
+    }
+  ],
+  "targets": [
+    {
+      "id": "target-0213",
+      "source": "User 9/Processed/Jogging/right-pocket.csv",
+      "subject": 9,
+      "activity": "Jogging",
+      "short_start": 4900,
+      "samples": 14992
+    },
+    {
+      "id": "target-0180",
+      "source": "User 8/Processed/Walking/right-pocket.csv",
+      "subject": 8,
+      "activity": "Walking",
+      "short_start": 13400,
+      "samples": 14995
+    },
+    {
+      "id": "target-0262",
+      "source": "User 9/Processed/Sitting/right-pocket.csv",
+      "subject": 9,
+      "activity": "Sitting",
+      "short_start": 400,
+      "samples": 14995
+    },
+    {
+      "id": "target-0050",
+      "source": "User 8/Processed/Laying/right-pocket.csv",
+      "subject": 8,
+      "activity": "Laying",
+      "short_start": 1400,
+      "samples": 14992
+    },
+    {
+      "id": "target-0148",
+      "source": "User 8/Processed/Upstairs/right-pocket/right-pocket_up5.csv",
+      "subject": 8,
+      "activity": "Upstairs",
+      "short_start": 900,
+      "samples": 1820
+    },
+    {
+      "id": "target-0253",
+      "source": "User 9/Processed/Laying/right-pocket.csv",
+      "subject": 9,
+      "activity": "Laying",
+      "short_start": 10400,
+      "samples": 14992
+    },
+    {
+      "id": "target-0345",
+      "source": "User 9/Processed/Walking/right-pocket.csv",
+      "subject": 9,
+      "activity": "Walking",
+      "short_start": 1400,
+      "samples": 14995
+    },
+    {
+      "id": "target-0077",
+      "source": "User 8/Processed/Sitting/right-pocket.csv",
+      "subject": 8,
+      "activity": "Sitting",
+      "short_start": 400,
+      "samples": 14989
+    },
+    {
+      "id": "target-0008",
+      "source": "User 8/Processed/Downstairs/right-pocket/right-pocket_down4.csv",
+      "subject": 8,
+      "activity": "Downstairs",
+      "short_start": 900,
+      "samples": 1755
+    },
+    {
+      "id": "target-0321",
+      "source": "User 9/Processed/Upstairs/right-pocket/right-pocket_up1.csv",
+      "subject": 9,
+      "activity": "Upstairs",
+      "short_start": 900,
+      "samples": 2300
+    },
+    {
+      "id": "target-0046",
+      "source": "User 8/Processed/Jogging/right-pocket.csv",
+      "subject": 8,
+      "activity": "Jogging",
+      "short_start": 13900,
+      "samples": 14998
+    },
+    {
+      "id": "target-0294",
+      "source": "User 9/Processed/Standing/right-pocket.csv",
+      "subject": 9,
+      "activity": "Standing",
+      "short_start": 1900,
+      "samples": 14989
+    },
+    {
+      "id": "target-0131",
+      "source": "User 8/Processed/Standing/right-pocket.csv",
+      "subject": 8,
+      "activity": "Standing",
+      "short_start": 12900,
+      "samples": 14998
+    },
+    {
+      "id": "target-0191",
+      "source": "User 9/Processed/Downstairs/right-pocket/right-pocket_down3.csv",
+      "subject": 9,
+      "activity": "Downstairs",
+      "short_start": 1900,
+      "samples": 2166
+    }
+  ]
+}
