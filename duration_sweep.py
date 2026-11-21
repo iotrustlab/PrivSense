@@ -5,6 +5,7 @@ import hashlib
 import json
 from collections import Counter
 from pathlib import Path
+from project_paths import dataset_path
 
 import numpy as np
 from sklearn.dummy import DummyClassifier
@@ -17,7 +18,7 @@ def load_recordings(c):
     train, validation = set(c['train_subjects']), set(c['validation_subjects'])
     if not train or not validation or train & validation:
         raise ValueError('Development subject partitions must be nonempty and disjoint')
-    source = (ROOT / c['dataset']).resolve()
+    source = dataset_path(c['dataset'])
     records, provenance = [], []
     for split, subjects in [('train', train), ('validation', validation)]:
         for subject in sorted(subjects):

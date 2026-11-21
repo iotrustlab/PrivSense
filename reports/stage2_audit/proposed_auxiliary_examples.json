@@ -1,7 +1,7 @@
 [
   {
     "activity": "Downstairs",
-    "source": "../Datasets/Data_STM-DT/User 1/Processed/Downstairs/right-pocket/right-pocket_downstairs1.csv",
+    "source": "User 1/Processed/Downstairs/right-pocket/right-pocket_downstairs1.csv",
     "start": 0,
     "bits": [
       1,
@@ -108,7 +108,7 @@
   },
   {
     "activity": "Jogging",
-    "source": "../Datasets/Data_STM-DT/User 1/Processed/Jogging/right-pocket.csv",
+    "source": "User 1/Processed/Jogging/right-pocket.csv",
     "start": 0,
     "bits": [
       1,
@@ -215,7 +215,7 @@
   },
   {
     "activity": "Laying",
-    "source": "../Datasets/Data_STM-DT/User 1/Processed/Laying/right-pocket.csv",
+    "source": "User 1/Processed/Laying/right-pocket.csv",
     "start": 0,
     "bits": [
       0,
@@ -322,7 +322,7 @@
   },
   {
     "activity": "Sitting",
-    "source": "../Datasets/Data_STM-DT/User 1/Processed/Sitting/right-pocket.csv",
+    "source": "User 1/Processed/Sitting/right-pocket.csv",
     "start": 0,
     "bits": [
       0,
@@ -429,7 +429,7 @@
   },
   {
     "activity": "Standing",
-    "source": "../Datasets/Data_STM-DT/User 1/Processed/Standing/right-pocket.csv",
+    "source": "User 1/Processed/Standing/right-pocket.csv",
     "start": 0,
     "bits": [
       0,
@@ -536,7 +536,7 @@
   },
   {
     "activity": "Upstairs",
-    "source": "../Datasets/Data_STM-DT/User 1/Processed/Upstairs/right-pocket/right-pocket_upstairs1.csv",
+    "source": "User 1/Processed/Upstairs/right-pocket/right-pocket_upstairs1.csv",
     "start": 0,
     "bits": [
       1,
@@ -643,7 +643,7 @@
   },
   {
     "activity": "Walking",
-    "source": "../Datasets/Data_STM-DT/User 1/Processed/Walking/right-pocket.csv",
+    "source": "User 1/Processed/Walking/right-pocket.csv",
     "start": 0,
     "bits": [
       1,

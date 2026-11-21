@@ -69,7 +69,7 @@ The {sequence} placeholder is replaced with json.dumps(bits): a bracketed, comma
 
 ```json
 {
-  "dataset": "../Datasets/Data_STM-DT",
+  "dataset": "data/source/UTAH-STM-HAR",
   "subjects": [
     8,
     9

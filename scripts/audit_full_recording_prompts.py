@@ -3,12 +3,12 @@ import sys,json,re,csv,hashlib
 from pathlib import Path
 from collections import Counter,defaultdict
 import numpy as np
-from tokenizers import Tokenizer
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
+from project_paths import dataset_path
 from direct_llm import CLASSES,read_lines,dump,messages
 from stage2_screen import read_binary,sha,render,templates
 from e3_experiment import render as e3render
-OUT=ROOT/'reports/full_recording_audit';DATA=ROOT/'data/full-recording-audit';SOURCE=ROOT.parent/'Datasets/Data_STM-DT'
+OUT=ROOT/'reports/full_recording_audit';DATA=ROOT/'data/full-recording-audit';SOURCE=dataset_path()
 SYSTEM='''Infer the activity of the unlabeled target recording using only the supplied sensor information, binary observations, and labeled references from other participants.
 The references are independent recordings, not consecutive parts of a session. The target label is hidden. Do not infer unavailable measurements or treat an ambiguous pattern as a unique activity signature. A required single prediction may be uncertain.'''
 USER='''Sensor information:
@@ -42,6 +42,7 @@ def main():
     prior={str(p.relative_to(ROOT)):sha(p) for folder in ['runs','data/direct-stage1','data/stage2-screen','data/e3-screen'] for p in (ROOT/folder).rglob('*') if p.is_file()}
     for p in ['direct_llm.py','stage2_screen.py','e3_experiment.py','reports/direct_llm_inference_pilot.md','reports/stage2_screening_results.md','reports/e3_cross_user_auxiliary_inference.md']:prior[p]=sha(ROOT/p)
     dump(OUT/'prior_artifact_hashes.json',prior)
+    from tokenizers import Tokenizer  # Optional: needed only when preparing token budgets.
     tok=Tokenizer.from_file(str(DATA/'tokenizer.json'));arrays={};records=[]
     for subject in range(1,10):
         base=SOURCE/f'User {subject}'/'Processed'

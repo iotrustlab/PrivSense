@@ -4,7 +4,7 @@ Status: read-only local data survey plus proposed benchmark protocol. No Qwen ca
 
 ## 1. What is locally available
 
-The workspace's `Datasets` directory contains one dataset directory: `Data_STM-DT`, with 1,435 CSVs and 76 text files across the stored users. There are no additional local binary-output datasets in that directory. Names discussed earlier (for example other HAR datasets) must not be treated as audited or installed assets. The raw validation files inspected previously contain six-axis IMU and timestamps, not recorded `dec_tree_out_1` values.
+The audited UTAH-STM-HAR source contains 1,435 CSVs and 76 text files across the stored users. No additional local binary-output datasets were audited. Names discussed earlier (for example other HAR datasets) must not be treated as audited or installed assets. The raw validation files inspected previously contain six-axis IMU and timestamps, not recorded `dec_tree_out_1` values.
 
 This survey reads the processed binary/time columns for users 1–9 at all five placements: 915 files total (735 training, 180 development-validation). Users 10–11 payloads are not opened; their results were previously inspected and they are not an untouched final test set. Source hashes are checked against the existing audit. Results are stored in `stage2_screen_survey.json`; rerun offline with:
 

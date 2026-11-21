@@ -1,12 +1,15 @@
 """Read-only data survey. No Qwen, no source edits, no test-user payload reads."""
 import hashlib
+import sys
 import json
 from collections import Counter,defaultdict
 from pathlib import Path
 import numpy as np
 
 ROOT=Path(__file__).resolve().parents[1]
-DATA=ROOT.parent/'Datasets'
+sys.path.insert(0,str(ROOT))
+from project_paths import dataset_path
+DATA=dataset_path()
 
 
 def signature(bits):return ''.join(map(str,bits.astype(int)))
@@ -21,11 +24,11 @@ def diagnostics(windows):
 
 
 def survey():
-    inventory={'dataset_directories':sorted(p.name for p in DATA.iterdir() if p.is_dir()),'all_file_extensions':dict(Counter(p.suffix for p in DATA.rglob('*') if p.is_file())),'scope':'Processed users 1–9 across all placements; users 10–11 payloads not read. Raw files have no recorded binary column in prior audit. Other dataset names in research context are not assumed locally installed.'}
+    inventory={'dataset':'UTAH-STM-HAR','all_file_extensions':dict(Counter(p.suffix for p in DATA.rglob('*') if p.is_file())),'scope':'Processed users 1–9 across all placements; users 10–11 payloads not read. Raw files have no recorded binary column in prior audit. Other dataset names in research context are not assumed locally installed.'}
     audit=json.loads((ROOT/'reports/stage2_audit/audit.json').read_text())
     file_rows=[];groups=defaultdict(list);hashes={}
     for rec in audit['processed_records']:
-        path=DATA/'Data_STM-DT'/rec['path']
+        path=DATA/rec['path']
         if hashlib.sha256(path.read_bytes()).hexdigest()!=rec['sha256']:raise ValueError('Source changed since audit')
         a=np.loadtxt(path,delimiter=',',skiprows=1,usecols=(0,7),ndmin=2)
         ts,bits=a.T;bits=bits.astype(int)

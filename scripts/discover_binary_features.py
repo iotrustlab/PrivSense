@@ -7,9 +7,10 @@ import numpy as np
 from sklearn.tree import DecisionTreeClassifier,export_text
 from sklearn.dummy import DummyClassifier
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
+from project_paths import dataset_path
 from direct_llm import CLASSES,classification
 from stage2_screen import read_binary,sha
-OUT=ROOT/'reports/activity_feature_audit';SOURCE=ROOT.parent/'Datasets/Data_STM-DT'
+OUT=ROOT/'reports/activity_feature_audit';SOURCE=dataset_path()
 TEMPORAL=['transition_rate_hz','mean_zero_run_fraction','mean_one_run_fraction','max_zero_run_fraction','max_one_run_fraction','segment_duty_std','segment_duty_slope','lag1_correlation','lag50_correlation']
 GROUPS={'class_prior':[],'duty_cycle':['fraction_ones'],'duration_only':['duration_seconds'],'temporal_no_explicit_duration':['fraction_ones']+TEMPORAL,'combined_with_duration':['fraction_ones']+TEMPORAL+['duration_seconds']}
 CANDIDATES=['fraction_ones','duration_seconds','transition_count','transition_rate_hz','mean_zero_run_seconds','mean_one_run_seconds','max_zero_run_seconds','max_one_run_seconds']+TEMPORAL[1:]+['binary_entropy','segment_duty_range','first_last_duty_difference','candidate_period_available','candidate_period_score']

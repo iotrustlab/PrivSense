@@ -1,3 +1,4 @@
+from project_paths import dataset_path
 import json
 import sys
 from pathlib import Path
@@ -25,14 +26,15 @@ def test_prompt_factor_isolation_and_original_bridge():
 def test_prepared_84_request_manifest_and_source_matching():
     import numpy as np
     data=s.ROOT/'data/stage2-screen'
-    if not data.exists():pytest.skip('Local dataset export not available')
+    if not (data/'requests.jsonl').is_file() or not dataset_path().is_dir():
+        pytest.skip('Private historical export and source dataset are not included')
     jobs=s.read_lines(data/'requests.jsonl');truth=s.read_lines(data/'truth.jsonl')
     obs={r['id']:r for r in s.read_lines(data/'selected_observations.jsonl')}
     assert len(jobs)==len({j['id'] for j in jobs})==84
     assert len(truth)==14
     assert {(r['subject'],r['activity']) for r in truth}=={(sub,c) for sub in [8,9] for c in s.CLASSES}
     for row in truth:
-        a=np.loadtxt(s.ROOT.parent/'Datasets/Data_STM-DT'/row['recording'],delimiter=',',skiprows=1,usecols=7,dtype=int)
+        a=np.loadtxt(dataset_path()/row['recording'],delimiter=',',skiprows=1,usecols=7,dtype=int)
         start=row['block_start_sample'];o=obs[row['id']]
         assert o['history']+o['target']==a[start:start+500].tolist()
         for job in [j for j in jobs if j['target_id']==row['id']]:

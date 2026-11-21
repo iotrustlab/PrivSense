@@ -8,6 +8,7 @@ import time
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
 from pathlib import Path
+from project_paths import dataset_path
 
 import numpy as np
 import requests
@@ -96,7 +97,7 @@ def prepare(c, directory):
         raise ValueError('Stage 1 preparation is restricted to users 8/9, 100 samples at 50 Hz')
     directory = Path(directory)
     directory.mkdir(parents=True, exist_ok=False)
-    source = (ROOT/c['dataset']).resolve()
+    source = dataset_path(c['dataset'])
     observations, truth, files = [], [], []
     for subject in c['subjects']:
         base = source/f'User {subject}'/'Processed'

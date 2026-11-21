@@ -1,8 +1,11 @@
+import pytest
+from project_paths import dataset_path
 import json
 from collections import Counter
 from pathlib import Path
 from e3_experiment import DATA,ROOT,CLASSES,render,read_binary,read_lines,sha
 
+@pytest.mark.skipif(not (DATA/'references.json').is_file() or not dataset_path().is_dir(), reason="Private historical experiment fixtures are not included in the public repository")
 def test_nested_disjoint_authentic_references():
     refs=json.loads((DATA/'references.json').read_text());prov=json.loads((DATA/'reference_provenance.json').read_text())
     assert refs['1']==json.loads((ROOT/'data/stage2-screen/references.json').read_text())
@@ -12,10 +15,11 @@ def test_nested_disjoint_authentic_references():
     for c in CLASSES:
         assert {r['subject'] for r in prov[c]}==set(range(1,8))
         for i,p in enumerate(prov[c]):
-            path=ROOT.parent/'Datasets/Data_STM-DT'/p['source'];a,_=read_binary(path)
+            path=dataset_path()/p['source'];a,_=read_binary(path)
             assert sha(path)==p['sha256']
             assert a[p['start_sample']:p['start_sample']+100,1].astype(int).tolist()==refs['20'][7*i+CLASSES.index(c)]['binary_sequence']
 
+@pytest.mark.skipif(not (DATA/'requests.jsonl').is_file() or not (ROOT/'data/stage2-screen/requests.jsonl').is_file(), reason="Private historical experiment fixtures are not included in the public repository")
 def test_targets_and_bridge_and_information_boundary():
     obs=read_lines(DATA/'selected_observations.jsonl');assert obs==read_lines(ROOT/'data/stage2-screen/selected_observations.jsonl')
     jobs=read_lines(DATA/'requests.jsonl');assert len(jobs)==86 and len({j['id'] for j in jobs})==86

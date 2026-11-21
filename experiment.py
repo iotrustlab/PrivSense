@@ -5,6 +5,7 @@ import hashlib
 import json
 import time
 from pathlib import Path
+from project_paths import dataset_path
 
 import numpy as np
 from sklearn.dummy import DummyClassifier
@@ -40,7 +41,7 @@ def prepare(c, out):
     check_splits(c)
     out = Path(out)
     out.mkdir(parents=True, exist_ok=False)
-    source = (ROOT / c['dataset']).resolve()
+    source = dataset_path(c['dataset'])
     manifest = {'config': c, 'classes': CLASSES, 'files': [], 'partitions': {}}
     for split in ['train', 'validation', 'test']:
         xs, ys, subjects = [], [], []
@@ -201,8 +202,11 @@ def run_agent(c, data, out, offline=False):
         raise ValueError('Set OPENROUTER_API_KEY in .env')
     started = time.monotonic()
     def log(event):
+        serialized = json.dumps(event)
+        if key:
+            serialized = serialized.replace(key, '[REDACTED]')
         with (out / 'events.jsonl').open('a') as h:
-            h.write(json.dumps(event) + '\n')
+            h.write(serialized + '\n')
     write_json(out / 'config.json', c)
     for turn in range(c['max_turns']):
         if offline:

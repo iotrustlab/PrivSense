@@ -4,9 +4,10 @@ from pathlib import Path
 from collections import Counter,defaultdict
 import numpy as np
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
+from project_paths import dataset_path
 from direct_llm import CLASSES,classification,read_lines,dump,validate
 from stage2_screen import sha,read_binary
-OUT=ROOT/'reports/next_inference_audit';SOURCE=ROOT.parent/'Datasets/Data_STM-DT'
+OUT=ROOT/'reports/next_inference_audit';SOURCE=dataset_path()
 
 def nearest(train,test,features,shuffle=False):
     x=np.array([r[features] for r in train],float).reshape(len(train),-1)

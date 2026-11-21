@@ -73,7 +73,7 @@ def test_agent_loop_without_test_partition(tmp_path, monkeypatch):
         class Response:
             status_code = 200
             def json(self):
-                return {'choices': [{'message': {'role': 'assistant', 'content': None, 'tool_calls': [{'id': name, 'type': 'function', 'function': {'name': name, 'arguments': __import__('json').dumps(args)}}]}}], 'usage': {'total_tokens': 100}}
+                return {'choices': [{'message': {'role': 'assistant', 'content': 'test-secret', 'tool_calls': [{'id': name, 'type': 'function', 'function': {'name': name, 'arguments': __import__('json').dumps(args)}}]}}], 'usage': {'total_tokens': 100}}
         return Response()
     monkeypatch.setattr(requests, 'post', post)
     monkeypatch.setenv('OPENROUTER_API_KEY', 'test-secret')

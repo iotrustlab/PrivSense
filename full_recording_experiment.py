@@ -1,12 +1,12 @@
 """Execute only the frozen 14-recording C1–C5 direct-inference pilot."""
 import argparse,json,os,time,hashlib
 from pathlib import Path
+from project_paths import dataset_path
 from collections import Counter,defaultdict
 from concurrent.futures import ThreadPoolExecutor
 import numpy as np
 import requests
 from dotenv import load_dotenv
-from tokenizers import Tokenizer
 from direct_llm import CLASSES,classification,validate,read_lines,write_lines,dump
 from stage2_screen import ROOT,sha,read_binary
 DATA=ROOT/'data/full-recording-screen';RUN=ROOT/'runs/full-recording-screen';FROZEN=ROOT/'data/full-recording-audit'
@@ -24,7 +24,7 @@ def prepare():
     for name in ['direct_llm.py','stage2_screen.py','e3_experiment.py']:protected[name]=sha(ROOT/name)
     dump(DATA/'preservation.json',protected)
     selections=json.loads((ROOT/'reports/full_recording_audit/proposed_selections.json').read_text());targets=selections['targets'];refs=selections['references']
-    source=ROOT.parent/'Datasets/Data_STM-DT';bits={};hashes={}
+    source=dataset_path();bits={};hashes={}
     for r in refs+targets:
         path=source/r['source'];a,segments=read_binary(path);assert len(segments)==1
         bits[r['source']]=a[:,1].astype(int).tolist();hashes[r['source']]=sha(path)
@@ -35,6 +35,7 @@ def prepare():
     raw=[j for j in read_lines(FROZEN/'proposed_prompts.jsonl') if j['id'].endswith('-string')]+read_lines(FROZEN/'proposed_controls.jsonl')
     provider=next(e for e in json.loads((DATA/'provider_metadata.json').read_text())['data']['endpoints'] if e['tag']=='deepinfra/fp8')
     assert all(p in provider['supported_parameters'] for p in ['reasoning','response_format','max_tokens','temperature'])
+    from tokenizers import Tokenizer  # Optional: needed only when preparing token budgets.
     tok=Tokenizer.from_file(str(FROZEN/'tokenizer.json'));jobs=[]
     for r in targets:
         for c in CONDITIONS:

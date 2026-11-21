@@ -1,5 +1,6 @@
 """Evaluator-only scoring and report; never feeds answers to Qwen."""
 import argparse,json
+from project_paths import dataset_path
 from collections import Counter,defaultdict
 import numpy as np
 from direct_llm import CLASSES,classification,dump,read_lines
@@ -71,7 +72,7 @@ def evaluate():
         rr=read_lines(RUN/(kind+'_responses.jsonl')) if (RUN/(kind+'_responses.jsonl')).exists() else []
         result['usage'][kind]={'calls':len(rr),'valid':sum(r['status']=='valid' for r in rr),'technical_valid':sum(r['technical_valid'] for r in rr),'providers':dict(Counter(r.get('returned_provider') for r in rr)),'usage':{k:sum((r.get('usage') or {}).get(k,0) or 0 for r in rr) for k in ['prompt_tokens','completion_tokens','total_tokens','cost']},'cost_fields_present':sum('cost' in (r.get('usage') or {}) for r in rr)}
     preserved=json.loads((DATA/'preservation.json').read_text());assert all(sha(ROOT/p)==h for p,h in preserved.items())
-    assert all(sha(ROOT.parent/'Datasets/Data_STM-DT'/p)==h for p,h in meta['source_hashes'].items())
+    assert all(sha(dataset_path()/p)==h for p,h in meta['source_hashes'].items())
     result['per_condition_usage']={c:{k:sum((r.get('usage') or {}).get(k,0) or 0 for r in rows if r['condition']==c) for k in ['prompt_tokens','completion_tokens','cost']} for c in ['R','D','T','T-order']}
     result['baseline_predictions_sha256']=sha(DATA/'baseline_predictions.json')
     result['preserved_files']=len(preserved);dump(RUN/'evaluation.json',result)

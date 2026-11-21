@@ -1,5 +1,5 @@
 {
-  "dataset": "../Datasets/Data_STM-DT",
+  "dataset": "data/source/UTAH-STM-HAR",
   "placement": "right-pocket",
   "sample_interval_us": 20000,
   "train_subjects": [1, 2, 3, 4, 5, 6, 7],

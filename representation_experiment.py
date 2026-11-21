@@ -2,17 +2,17 @@
 import argparse, hashlib, json, os, time
 from collections import Counter
 from pathlib import Path
+from project_paths import dataset_path
 import numpy as np
 import requests
 from dotenv import load_dotenv
-from tokenizers import Tokenizer
 from direct_llm import CLASSES, classification, dump, read_lines, write_lines
 from stage2_screen import ROOT, read_binary, sha
 from inference_protocol_v2 import VERSION, RESPONSE_FORMAT, validate_v2
 from scripts.discover_binary_features import features
 DATA=ROOT/'data/representation-screen'
 RUN=ROOT/'runs/representation-screen'
-SOURCE=ROOT.parent/'Datasets/Data_STM-DT'
+SOURCE=dataset_path()
 FIELDS=['fraction_ones','transition_count','max_zero_run_fraction','max_one_run_fraction']
 SYSTEM='''Infer the activity of the unlabeled target interval using only the supplied observations or deterministic features and labeled reference intervals from other participants. Do not use unavailable measurements or invent activity-specific patterns. Identical observations or feature values may correspond to different activities. Reference class frequencies are a selection choice, not a population prior. Return only the three fields required by the response schema: predicted_activity, confidence for that exact activity, and sufficient_information indicating whether the observation reliably distinguishes that activity. No explanation, extra keys, or markdown.'''
 DEFINITIONS='''The inertial sensing system has accelerometer and gyroscope channels; only its shake/no-shake binary output is exposed. Zero means no shake was flagged, not proof of complete immobility; one means shake was flagged, not a measurement of intensity, posture, or gait cadence. Export spacing is 0.02 seconds (50 samples per second); this does not establish detector update frequency.
@@ -103,6 +103,7 @@ def prepare():
             gate_sources.append({'profile':profile,'target_source':r['path'],'reference_sources':provenance,'target_samples':len(b)})
     provider=next(e for e in json.loads((DATA/'provider_metadata.json').read_text())['data']['endpoints'] if e['tag']=='deepinfra/fp8')
     assert {'structured_outputs','response_format','reasoning','temperature','max_tokens'}<=set(provider['supported_parameters'])
+    from tokenizers import Tokenizer  # Optional: needed only when preparing token budgets.
     tok=Tokenizer.from_file(str(ROOT/'data/full-recording-audit/tokenizer.json'))
     for j in gate+jobs:
         j['local_content_tokens']=sum(len(tok.encode(m['content']).ids) for m in j['messages'])

@@ -1,12 +1,15 @@
 """Offline provenance/temporal audit; reads development users 1–9 only. No APIs."""
 import hashlib
+import sys
 import json
 from collections import Counter, defaultdict
 from pathlib import Path
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT.parent/'Datasets/Data_STM-DT'
+sys.path.insert(0, str(ROOT))
+from project_paths import dataset_path
+DATA = dataset_path()
 OUT = ROOT/'reports/stage2_audit/audit.json'
 
 

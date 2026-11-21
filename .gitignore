@@ -1,7 +1,19 @@
 .env
 .env.*
+!.env.example
 .venv/
+venv/
 __pycache__/
 .pytest_cache/
 data/
 runs/
+# Local secrets, credentials, and workstation files.
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+.idea/
+.vscode/

@@ -1,6 +1,7 @@
 """Frozen cross-user auxiliary-data screen; no training or feedback."""
 import json, os, time, hashlib, argparse
 from pathlib import Path
+from project_paths import dataset_path
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 import numpy as np
@@ -72,7 +73,7 @@ def render(obs,refs):
 
 def prepare():
     DATA.mkdir(exist_ok=False,parents=True)
-    source=ROOT.parent/'Datasets/Data_STM-DT'; old=ROOT/'data/stage2-screen'
+    source=dataset_path(); old=ROOT/'data/stage2-screen'
     preserved={str(p.relative_to(ROOT)):sha(p) for folder in ['data/direct-stage1','runs/direct-stage1-full','data/stage2-screen','runs/stage2-screen'] for p in (ROOT/folder).rglob('*') if p.is_file()}
     for name in ['direct_llm.py','stage2_screen.py','direct_report.py','stage2_report.py']:
         preserved[name]=sha(ROOT/name)

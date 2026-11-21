@@ -1,6 +1,8 @@
+import pytest
 import json
 from full_recording_experiment import DATA,CONDITIONS,read_lines,technical,unpack
 
+@pytest.mark.skipif(not (DATA/'requests.jsonl').is_file() or not (DATA/'manifest.json').is_file(), reason="Private historical experiment fixtures are not included in the public repository")
 def test_frozen_grid_and_provider_limits():
     jobs=read_lines(DATA/'requests.jsonl');meta=json.loads((DATA/'manifest.json').read_text())
     assert len(jobs)==70 and len({j['id'] for j in jobs})==70
@@ -17,7 +19,7 @@ def test_frozen_grid_and_provider_limits():
             if c in ['C1','C3']:assert all(len(r['binary_sequence'])==100 for r in refs)
 
 def test_technical_gate_rejects_provider_switch_or_missing_input():
-    meta=json.loads((DATA/'manifest.json').read_text())
+    meta={'settings':{'model':'mock-model'},'provider':{'context_length':262144}}
     r={'http_status':200,'returned_provider':'DeepInfra','returned_model':meta['settings']['model'],'usage':{'prompt_tokens':100017},'local_content_tokens':100000}
     assert technical(r,meta)
     assert not technical(r|{'returned_provider':'Other'},meta)

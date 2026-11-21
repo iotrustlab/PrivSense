@@ -8,6 +8,7 @@ import time
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
 from pathlib import Path
+from project_paths import dataset_path
 
 import numpy as np
 import requests
@@ -55,7 +56,7 @@ def read_binary(path):
 
 def prepare(out):
     out=Path(out);out.mkdir(parents=True,exist_ok=False)
-    source=ROOT.parent/'Datasets/Data_STM-DT'
+    source=dataset_path()
     candidates=[];sources={}
     for subject in [8,9]:
         base=source/f'User {subject}'/'Processed'
